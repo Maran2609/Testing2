@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-12T18:32:54 IST" name="Default suite" finished-at="2021-09-12T18:33:58 IST" duration-ms="64091">
+    <groups>
+    </groups>
+    <test started-at="2021-09-12T18:32:54 IST" name="Default test" finished-at="2021-09-12T18:33:58 IST" duration-ms="64091">
+      <class name="runner.Tests">
+        <test-method is-config="true" signature="getTestData()[pri:0, instance:runner.Tests@60bd273d]" started-at="2021-09-12T18:32:54 IST" name="getTestData" finished-at="2021-09-12T18:32:55 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method is-config="true" signature="driverlaunch()[pri:0, instance:runner.Tests@60bd273d]" started-at="2021-09-12T18:32:55 IST" name="driverlaunch" finished-at="2021-09-12T18:32:57 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverlaunch -->
+        <test-method signature="searchflight(java.lang.String,java.lang.String)[pri:1, instance:runner.Tests@60bd273d]" started-at="2021-09-12T18:32:57 IST" name="searchflight" data-provider="getTestData" finished-at="2021-09-12T18:33:52 IST" duration-ms="54675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchflight -->
+        <test-method signature="Verify()[pri:2, instance:runner.Tests@60bd273d]" started-at="2021-09-12T18:33:52 IST" name="Verify" finished-at="2021-09-12T18:33:54 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method signature="title()[pri:3, instance:runner.Tests@60bd273d]" started-at="2021-09-12T18:33:54 IST" name="title" finished-at="2021-09-12T18:33:58 IST" duration-ms="4012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- runner.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
